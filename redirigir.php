@@ -7,7 +7,7 @@
 <?php
 session_start();
 session_destroy();
-header("Location: reves.php");
+header("Location: reves2.php");
 
 ?>
 
