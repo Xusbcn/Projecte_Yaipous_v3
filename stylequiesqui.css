@@ -1,0 +1,255 @@
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+ * {
+    box-sizing: border-box;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+.timer {
+    color: red;
+    font-weight: bold;
+    background: white;
+    width: 8%;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5%;
+}
+
+
+.back-face{
+  transform: rotateY(180deg);
+  background-image: url('reversocarta.jpg');
+  background-size: cover;
+  width: 150px;
+  height: 190px;
+}
+.flip-card .front-face, .flip-card .back-face{
+  transition: transform 500ms;
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+.flip-card{
+
+  width: 150px;
+  height: 190px;
+  margin: 10px;
+  position: relative;
+}
+.flip-card.is-flipped{
+  transform: rotateY(180deg);
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.caracarta:hover{
+  box-shadow: 0 0 15px #333;
+  
+}
+
+#bodyprincipal {
+  background-image: url("fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: 120% 100%;
+}
+
+
+/*escollida fet per Pop*/
+#escollida {
+  width: 16%;
+  height: 18%;
+}
+
+.back-face {
+  border-radius: 5px;
+  border: solid;
+  border-width: 2px;
+  border-color: white;
+}
+
+.back-face:hover {
+  border: solid;
+  border-width: 6px;
+  border-color: #ff6666;
+  box-shadow: 6px 10px;
+}
+
+#cartas {
+  background-image: url('fondotablero.jpg');
+  position: relative;
+  width: 50%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  padding: 10px;
+  border: solid;
+  border-width: 4px;
+  border-color: black;
+}
+
+.easy {
+  position: relative;
+  left: 70%;
+}
+
+#submit_consulta {
+  margin: 5px;
+}
+
+#comptador {
+  margin: 15px;
+}
+
+#preguntes {
+  font-weight: bold;
+}
+
+#ta {
+  vertical-align: middle;
+  width: 5%;
+  height: 2%;
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+.mensaje{
+    background: white;
+    width: 5%;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.parpadea {
+  
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name:parpadeo;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo{  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {  
+  0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes caracarta {
+  16.65% {
+    -webkit-transform: skew(-12deg);
+    transform: skew(-12deg);
+  }
+  33.3% {
+    -webkit-transform: skew(10deg);
+    transform: skew(10deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-6deg);
+    transform: skew(-6deg);
+  }
+  66.6% {
+    -webkit-transform: skew(4deg);
+    transform: skew(4deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+@keyframes hvr-wobble-top {
+  16.65% {
+    -webkit-transform: skew(-12deg);
+    transform: skew(-12deg);
+  }
+  33.3% {
+    -webkit-transform: skew(10deg);
+    transform: skew(10deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-6deg);
+    transform: skew(-6deg);
+  }
+  66.6% {
+    -webkit-transform: skew(4deg);
+    transform: skew(4deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+.caracarta {
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+.caracarta:hover {
+  -webkit-animation-name: hvr-wobble-top;
+  animation-name: hvr-wobble-top;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+
+.formuganador {
+  position: z-index: 999;
+}

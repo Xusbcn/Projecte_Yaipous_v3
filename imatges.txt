@@ -1,0 +1,16 @@
+Bellatrix.jpg : cabell moreno , ulleres no , sexe femella , huma si , casa Gryffindor
+Crookshanks.jpg : cabell pelroig , ulleres no , sexe mascle , huma no , casa Gryffindor
+Dobby.jpg : cabell calb , ulleres no , sexe mascle , huma no , casa Gryffindor
+Draco.jpg : cabell ros , ulleres no , sexe mascle , huma si , casa  Gryffindor
+Fang.jpg : cabell moreno , ulleres no , sexe mascle , huma no , casa Gryffindor
+Ginny.jpg : cabell pelroig , ulleres no , sexe femella , huma si , casa Gryffindor 
+Gringotts.jpeg : cabell calb , ulleres si , sexe mascle , huma no , casa Gryffindor
+Hagrid.jpg : cabell castany , ulleres no , sexe mascle , huma si , casa Gryffindor
+Harry.jpg : cabell moreno , ulleres si , sexe mascle , huma si , casa Gryffindor
+Hermione.jpg : cabell castany , ulleres no , sexe femella , huma si , casa Gryffindor
+Luna.jpg : cabell ros , ulleres no , sexe femella , huma si , casa Gryffindor
+Mcgonagall.jpg : cabell castany , ulleres si , sexe femella , huma si , casa Gryffindor
+Ron.jpg : cabell pelroig , ulleres no , sexe mascle , huma si , casa Gryffindor
+Skeeter.jpg : cabell ros , ulleres si , sexe femella , huma si , casa Gryffindor
+Snape.jpg : cabell moreno , ulleres no , sexe mascle , huma si , casa Gryffindor
+Voldemort.jpg : cabell calb , ulleres no , sexe mascle , huma si , casa Gryffindor
